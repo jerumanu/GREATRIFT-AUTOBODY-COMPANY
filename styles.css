@@ -1,6 +1,14 @@
-body{
+.home{
     background-image: url("./images/Ann.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 
+}
+
+li{
+    color: chartreuse;
+}
+.manu{
+    justify-content: center;
 }
