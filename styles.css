@@ -1,4 +1,4 @@
-.home{
+.home {
     background-image: url("./images/Ann.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,9 +6,48 @@
 
 }
 
-li{
+#services ul li {
     color: chartreuse;
 }
-.manu{
-    justify-content: center;
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+    
 }
+nav > ul {
+    display:flex;
+}
+
+nav>ul>li {
+    padding: 12px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: cyan;
+    display:inline-block;
+    list-style-type: none;
+    
+}   
+
+nav>ul>li>a:hover {
+    box-shadow: gold;
+    background: greenyellow;
+    color: rgb(33, 150, 189);
+}
+.contact{
+    background-color: rgb(173, 18, 173);
+
+    background-size: cover;
+
+}
+#about{
+    background-image:url(./images/1234df.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: olivedrab;
+}
+
