@@ -11,11 +11,11 @@
 }
 
 nav {
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 10px 0;
     margin-right: 0%;
-    background-color: palegreen;
+    /* background-color: palegreen; */
 }
 nav > ul {
     display:flex;
@@ -35,7 +35,7 @@ nav>ul>li {
 nav>ul>li>a:hover {
     box-shadow: gold;
     background: greenyellow;
-    color: rgb(33, 150, 189);
+    color: rgb(33, 65, 211);
 }
 .contact{
     background-image: url(./images/949085t.jpg);
@@ -49,16 +49,27 @@ nav>ul>li>a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    color: olivedrab;
+    color: seagreen;
 }
-#services{
-    background-image: url(./images/1064807183.jpg);
-    background-size: cover;
+
+footer{
+    background-color: indianred;
+}
+#BACKGROUND{
+    font-size:  px;
+    font-weight: 500;
+
+}
+.offer{
+    background-image:url(./images/1064807183.jpg);
     background-repeat: no-repeat;
-    height: 100vh; 
-
-
+    background-size: cover;
+    height: 100vh;
+    color: violet;
 }
-
-
-
+.wellcome h2{
+    text-align: center;
+}
+.wellcome p {
+    text-align: center;
+}
