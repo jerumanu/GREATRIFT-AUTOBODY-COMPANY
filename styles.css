@@ -71,5 +71,35 @@ footer{
     text-align: center;
 }
 .wellcome p {
-    text-align: center;
+    text-align:center;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+}
+#BACKGROUND p {
+    text-align:center;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+}
+#BACKGROUND h2 {
+    text-align:center;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+}
+
+#BACKGROUND h3 {
+    text-align:center;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+}
+#BACKGROUND h1 {
+    text-align:center;  
+
 }
